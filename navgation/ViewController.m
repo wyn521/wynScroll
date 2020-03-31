@@ -25,7 +25,6 @@
 }
 
 - (void)createView {
-    //master第一次提交
     UIButton *testBtn = [[UIButton alloc] init];
     [self.view addSubview:testBtn];
 }
