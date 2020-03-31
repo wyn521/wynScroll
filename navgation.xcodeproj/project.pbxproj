@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F25F9B52432F2CA00109D12 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F25F9B42432F2CA00109D12 /* testView.m */; };
 		48D016331B8C00F3003BBEB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D016321B8C00F3003BBEB6 /* main.m */; };
 		48D016361B8C00F3003BBEB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D016351B8C00F3003BBEB6 /* AppDelegate.m */; };
 		48D016391B8C00F3003BBEB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D016381B8C00F3003BBEB6 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F25F9B32432F2CA00109D12 /* testView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		3F25F9B42432F2CA00109D12 /* testView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
 		48D0162D1B8C00F3003BBEB6 /* navgation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navgation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D016311B8C00F3003BBEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48D016321B8C00F3003BBEB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				48D016351B8C00F3003BBEB6 /* AppDelegate.m */,
 				48D016371B8C00F3003BBEB6 /* ViewController.h */,
 				48D016381B8C00F3003BBEB6 /* ViewController.m */,
+				3F25F9B32432F2CA00109D12 /* testView.h */,
+				3F25F9B42432F2CA00109D12 /* testView.m */,
 				48D0163A1B8C00F3003BBEB6 /* Main.storyboard */,
 				48D0163D1B8C00F3003BBEB6 /* Images.xcassets */,
 				48D0163F1B8C00F4003BBEB6 /* LaunchScreen.xib */,
@@ -180,6 +185,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -219,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F25F9B52432F2CA00109D12 /* testView.m in Sources */,
 				48D016391B8C00F3003BBEB6 /* ViewController.m in Sources */,
 				48D016361B8C00F3003BBEB6 /* AppDelegate.m in Sources */,
 				48D016331B8C00F3003BBEB6 /* main.m in Sources */,
@@ -416,6 +423,7 @@
 				48D016521B8C00F4003BBEB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48D016531B8C00F4003BBEB6 /* Build configuration list for PBXNativeTarget "navgationTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +432,7 @@
 				48D016551B8C00F4003BBEB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,8 +25,9 @@
 }
 
 - (void)createView {
-    UIButton *testBtn = [[UIButton alloc] init];
-    [self.view addSubview:testBtn];
+    //改变button名字 master第一次提交
+    UIButton *changeName = [[UIButton alloc] init];
+    [self.view addSubview:changeName];
 }
 
 @end
